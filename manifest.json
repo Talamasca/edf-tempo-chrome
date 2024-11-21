@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "EDF Tempo Alert",
+  "version": "1.2",
+  "description": "Displays red alert for EDF Tempo red days",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": "icons/edf-logo.png",
+    "default_title": "EDF Tempo Status",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/edf-logo.png",
+    "48": "icons/edf-logo.png",
+    "128": "icons/edf-logo.png"
+  }
+}

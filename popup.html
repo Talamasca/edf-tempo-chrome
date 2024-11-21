@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .day-info {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .color-indicator {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 1px solid #000;
+      vertical-align: middle;
+    }
+    .date {
+      font-weight: bold;
+    }
+    .color-name {
+      margin-left: 5px;
+    }
+  </style>
+</head>
+<body>
+<div id="edf-logo"><img src="icons/EDF-300x164.png" />
+</div>
+  <div id="today" class="day-info">
+    <span class="color-indicator"></span>
+    <span class="date"></span>
+    <span class="color-name"></span>
+  </div>
+  <div id="tomorrow" class="day-info">
+    <span class="color-indicator"></span>
+    <span class="date"></span>
+    <span class="color-name"></span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
